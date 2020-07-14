@@ -4,9 +4,9 @@
 :Revision: version#
 :License: Public Domain
 
-= Project: {Blink}
+= Project: {Blink LED}
 
-Controlling the on-chip LED to blink at a particular frequency
+Controlling the on-chip LED to blink at a particular frequency.
 
 == Step 1: Installation
 
@@ -25,8 +25,8 @@ Upload the code contained in this sketch on to your board
 === Folder structure
 
 ....
- sketch123                => Arduino sketch folder
-  ├── sketch123.ino       => main Arduino file
+ blink                    => Arduino sketch folder
+  ├── blink.ino           => main Arduino file
   ├── schematics.png      => (optional) an image of the required schematics
   ├── layout.png          => (optional) an image of the layout
   └── ReadMe.adoc         => this file

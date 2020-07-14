@@ -1,12 +1,12 @@
 :Author: anindo_7
 :Email: {AuthorEmail}
-:Date: 30/06/2019
+:Date: 13/07/2020
 :Revision: version#
 :License: Public Domain
 
-= Project: {Touch Sensor}
+= Project: {Temperature Sensor}
 
-Controlling the on-chip touch sensor and glowing the on-chip LED on touch.
+Reading the current temperature from the on-chip temperature sensor.
 
 == Step 1: Installation
 
@@ -25,8 +25,8 @@ Upload the code contained in this sketch on to your board
 === Folder structure
 
 ....
- touch                => Arduino sketch folder
-  ├── touch.ino       => main Arduino file
+ temp                	  => Arduino sketch folder
+  ├── temp.ino       	  => main Arduino file
   ├── schematics.png      => (optional) an image of the required schematics
   ├── layout.png          => (optional) an image of the layout
   └── ReadMe.adoc         => this file
